@@ -7,6 +7,14 @@
 
     <title>Natalia Portfolio</title>
 
+    <!--fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Mochiy+Pop+P+One&display=swap"
+      rel="stylesheet"
+    />
+
     <!--fav icon-->
     <link rel="icon" href="" />
 
@@ -43,32 +51,93 @@
       <h1 class="text-xl text-orange-500 font-bold">
         Natalia Carvalho
       </h1>
+
       <div class="flex items-center">
-        <ul class="flex items-center space-x-2">
-          <li class="font-semibold text-gray-700 hover:text-orange-500">
+        <ul class="flex items-center space-x-4">
+          <li class="font-semibold text-orange-700 hover:text-orange-500">
             <a href="#">Sobre mim</a>
           </li>
 
-          <li class="font-semibold text-gray-700 hover:text-orange-500">
+          <li class="font-semibold text-orange-700 hover:text-orange-500">
             <a href="#">Skills</a>
           </li>
 
-          <li class="font-semibold text-gray-700 hover:text-orange-500">
+          <li class="font-semibold text-orange-700 hover:text-orange-500">
             <a href="#">Hobbies</a>
           </li>
 
-          <li class="font-semibold text-gray-700 hover:text-orange-500">
+          <li class="font-semibold text-orange-700 hover:text-orange-500">
             <a href="#">Projetos</a>
+          </li>
+
+          <li class="font-semibold text-orange-700 hover:text-orange-500">
+            <a href="#">Contato</a>
           </li>
         </ul>
       </div>
     </nav>
     <!--header-->
+    <header class="header">
+      <div class="flex flex-col lg:grid lg:grid-cols-2">
+        <h3 class="header__title">
+          Olá! Me chamo Natalia
+          <span class="header__animation">desenvolvedora front end</span>
+        </h3>
+
+        <img
+          class="header__image"
+          src="https://media.tenor.com/DZuIb6mpKtUAAAAC/quanxi-csm.gif"
+          alt="Minha imagem"
+        />
+
+        <p class="header__text">
+          Me chamo Natalia, tenho 27 anos e gosto muito de tecnologia! Trabalho
+          como Ilustradora freelance e, ao mesmo tempo, estudo sobre
+          desenvolvimento front-end.
+        </p>
+      </div>
+    </header>
 
     <!--content-->
+    <main class="main">
+      <!--sobre mim-->
+      <div class="bg-orange-300">
+        <h3 class="main__title">Sobre mim</h3>
+        <p>
+          Trabalho há 3 anos como Ilustradora, mas sempre me interessei por
+          desenvolvimento web e no momento estou participando da formação Front
+          End T4 - ONE e do programa Programadores Cariocas.
+        </p>
+      </div>
+    </main>
+
+    <!--skills-->
+    <section class="skills">
+      <h4 class="skills__title">Skills</h4>
+      <div class="grid grid-cols-4 grid-rows-2 w-8 text-center space-x-5">
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+        <p>a</p>
+      </div>
+    </section>
+
+    <!--hobbies-->
+    <section>Hobbies</section>
+
+    <!--projetos-->
+    <section>Projetos</section>
+
+    <!--contato-->
+    <form>Contato</form>
 
     <!--footer-->
-    <footer class="bg-orange-300 text-center text-white lg:text-left">
+    <footer
+      class="h-[50rem] bg-orange-300 text-center text-white lg:text-left w-full"
+    >
       <div class="p-4 text-center gap-4">
         <p>Desenvolvido por Natalia Carvalho</p>
         <a
