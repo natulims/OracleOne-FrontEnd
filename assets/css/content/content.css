@@ -1,0 +1,80 @@
+/*sobre mim*/
+.main {
+  width: 100%;
+}
+.main__title {
+  color: #eb9053;
+  background-color: #fbd38d;
+  line-height: normal;
+  padding: 2rem;
+  font-size: 2rem;
+}
+@media (max-width: 860px) {
+  .main__title {
+    font-size: 0.9em;
+  }
+}
+.main__text {
+  padding: 1em 2rem;
+  text-indent: 1em;
+  line-height: normal;
+  line-break: loose;
+  vertical-align: middle;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  text-align: justify;
+}
+@media (max-width: 860px) {
+  .main__text {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+}
+.main .bg-orange-300 {
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+@media (max-width: 860px) {
+  .main .bg-orange-300 {
+    height: 28rem;
+  }
+}
+
+/*skills*/
+.skills__title {
+  text-align: center;
+  color: #441a21;
+  line-height: normal;
+  padding: 2rem;
+  font-size: 2em;
+}
+@media (max-width: 860px) {
+  .skills__title {
+    font-size: 0.9em;
+  }
+}
+.skills__info {
+  width: 10rem;
+  height: 10rem;
+  background-color: #fbd38d;
+  border-radius: 10px;
+  margin: 2em 1em;
+  transition: 0.2s;
+}
+.skills__info:hover {
+  background-color: #eb9053;
+}
+.skills__info p {
+  font-size: 3em;
+  text-align: left;
+  margin-top: 4rem;
+  color: white;
+}
+.skills__info span {
+  margin-top: 5em;
+  margin-left: 0.5rem;
+  font-size: 30px;
+  font-weight: bolder;
+  color: white;
+}/*# sourceMappingURL=content.css.map */

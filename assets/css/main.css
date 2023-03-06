@@ -5,7 +5,7 @@
 body {
   background-color: #ede4e0;
   font-family: "Baloo Chettan 2", cursive;
-  font-size: 1.2em;
+  font-size: 1.3em;
   color: #441a21;
   /*scrollbar*/
 }
@@ -17,6 +17,20 @@ body ::-webkit-scrollbar-track {
   border-radius: 10px;
 }
 body ::-webkit-scrollbar-thumb {
-  background: #f54746;
+  background: #eb9053;
   border-radius: 10px;
+}
+
+/*text*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+
+p {
+  font-family: "Baloo Chettan 2", cursive;
 }/*# sourceMappingURL=main.css.map */

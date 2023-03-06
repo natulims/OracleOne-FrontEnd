@@ -1,1 +1,61 @@
-/*# sourceMappingURL=header.css.map */
+/*header css*/
+.header {
+  /*text*/
+  /*typing animation*/
+  /*image*/
+}
+.header__title {
+  color: #441a21;
+  line-height: normal;
+  padding: 2rem;
+  font-size: 2em;
+  margin-bottom: 2rem;
+  margin-left: 10rem;
+}
+@media (max-width: 860px) {
+  .header__title {
+    font-size: 0.9em;
+  }
+}
+.header .mx-15 {
+  margin-left: -150rem;
+  color: #eb9053;
+}
+.header .mx-15 li {
+  font-size: 20px;
+}
+.header .mx-15 li:hover {
+  color: #441a21;
+}
+.header__text {
+  text-indent: 1em;
+  line-height: normal;
+  line-break: loose;
+  vertical-align: middle;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  text-align: justify;
+}
+@media (max-width: 860px) {
+  .header__text {
+    margin-left: 0;
+    margin-bottom: 2rem;
+    font-size: 18px;
+  }
+}
+.header__animation {
+  color: #eb9053;
+  line-height: normal;
+  padding: 2rem;
+}
+.header__image {
+  width: 15rem;
+  margin-left: 30rem;
+  border-radius: 30rem;
+}
+@media (max-width: 860px) {
+  .header__image {
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+  }
+}/*# sourceMappingURL=header.css.map */

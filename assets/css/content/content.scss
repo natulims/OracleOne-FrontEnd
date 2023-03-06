@@ -1,0 +1,91 @@
+//paleta de cores
+$background-color: #ede4e0;
+$main-text-color: #441a21;
+$details-text-color: #eb9053;
+$details-color: #f4e6cc;
+$button-color: #fead96;
+
+@mixin text-config() {
+  line-height: normal;
+  padding: 2rem;
+}
+
+/*sobre mim*/
+.main {
+  width: 100%;
+
+  &__title {
+    color: $details-text-color;
+    background-color: #fbd38d;
+    @include text-config();
+    font-size: 2rem;
+
+    @media (max-width: 860px) {
+      font-size: 0.9em;
+    }
+  }
+
+  &__text {
+    padding: 1em 2rem;
+    text-indent: 1em;
+    line-height: normal;
+    line-break: loose;
+    vertical-align: middle;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    text-align: justify;
+    @media (max-width: 860px) {
+      margin-left: 0;
+      margin-bottom: 2rem;
+      font-size: 18px;
+    }
+  }
+
+  .bg-orange-300 {
+    height: 10rem;
+    margin-bottom: 2rem;
+    @media (max-width: 860px) {
+      height: 28rem;
+    }
+  }
+}
+
+/*skills*/
+.skills {
+  &__title {
+    text-align: center;
+    color: $main-text-color;
+    @include text-config();
+    font-size: 2em;
+    @media (max-width: 860px) {
+      font-size: 0.9em;
+    }
+  }
+
+  &__info {
+    width: 10rem;
+    height: 10rem;
+    background-color: #fbd38d;
+    border-radius: 10px;
+    margin: 2em 1em;
+    transition: 0.2s;
+    &:hover {
+      background-color: $details-text-color;
+    }
+
+    p {
+      font-size: 3em;
+      text-align: left;
+      margin-top: 4rem;
+      color: white;
+    }
+
+    span {
+      margin-top: 5em;
+      margin-left: 0.5rem;
+      font-size: 30px;
+      font-weight: bolder;
+      color: white;
+    }
+  }
+}
