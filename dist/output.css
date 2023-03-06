@@ -512,4 +512,8 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+
+body {
+  background-color: #ede4e0;
+}
 /*# sourceMappingURL=output.css.map */

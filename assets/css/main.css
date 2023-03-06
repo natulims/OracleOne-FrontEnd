@@ -1,4 +1,7 @@
 /*tailwind*/
 @tailwind base;
 @tailwind components;
-@tailwind utilities;/*# sourceMappingURL=main.css.map */
+@tailwind utilities;
+body {
+  background-color: #ede4e0;
+}/*# sourceMappingURL=main.css.map */
