@@ -83,9 +83,87 @@ $button-color: #fead96;
     span {
       margin-top: 5em;
       margin-left: 0.5rem;
-      font-size: 30px;
+      font-size: 20px;
       font-weight: bolder;
       color: white;
     }
+  }
+}
+
+/*hobbies*/
+.hobbies {
+  &__title {
+    text-align: center;
+    color: $main-text-color;
+    @include text-config();
+    font-size: 2em;
+    @media (max-width: 860px) {
+      font-size: 0.9em;
+    }
+  }
+
+  &__info {
+    width: 10rem;
+    height: 10rem;
+    background-color: #fbd38d;
+    border-radius: 10px;
+    margin: 2em 1em;
+    transition: 0.2s;
+    &:hover {
+      background-color: $details-text-color;
+    }
+
+    p {
+      font-size: 3em;
+      text-align: left;
+      margin-top: 4rem;
+      color: white;
+    }
+
+    span {
+      margin-top: 5em;
+      margin-left: 0.5rem;
+      font-size: 20px;
+      font-weight: bolder;
+      color: white;
+    }
+  }
+}
+
+/*projetos*/
+.projects {
+  @media (max-width: 860px) {
+    display: none;
+  }
+  &__title {
+    text-align: center;
+    color: $main-text-color;
+    @include text-config();
+    font-size: 2em;
+  }
+
+  &__image {
+    width: 35rem;
+    margin-left: 10rem;
+  }
+
+  &__text {
+    color: $details-text-color;
+    font-weight: bolder;
+    font-size: 2em;
+    margin-left: 50rem;
+    margin-top: -25rem;
+  }
+
+  &__info {
+    margin-left: 50rem;
+    margin-bottom: 12rem;
+    margin-top: 2rem;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
   }
 }

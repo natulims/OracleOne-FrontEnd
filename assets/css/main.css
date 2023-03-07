@@ -7,18 +7,6 @@ body {
   font-family: "Baloo Chettan 2", cursive;
   font-size: 1.3em;
   color: #441a21;
-  /*scrollbar*/
-}
-body ::-webkit-scrollbar {
-  width: 2em;
-}
-body ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px #ede4e0;
-  border-radius: 10px;
-}
-body ::-webkit-scrollbar-thumb {
-  background: #eb9053;
-  border-radius: 10px;
 }
 
 /*text*/

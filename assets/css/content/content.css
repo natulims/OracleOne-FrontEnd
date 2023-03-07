@@ -74,7 +74,80 @@
 .skills__info span {
   margin-top: 5em;
   margin-left: 0.5rem;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   color: white;
+}
+
+/*hobbies*/
+.hobbies__title {
+  text-align: center;
+  color: #441a21;
+  line-height: normal;
+  padding: 2rem;
+  font-size: 2em;
+}
+@media (max-width: 860px) {
+  .hobbies__title {
+    font-size: 0.9em;
+  }
+}
+.hobbies__info {
+  width: 10rem;
+  height: 10rem;
+  background-color: #fbd38d;
+  border-radius: 10px;
+  margin: 2em 1em;
+  transition: 0.2s;
+}
+.hobbies__info:hover {
+  background-color: #eb9053;
+}
+.hobbies__info p {
+  font-size: 3em;
+  text-align: left;
+  margin-top: 4rem;
+  color: white;
+}
+.hobbies__info span {
+  margin-top: 5em;
+  margin-left: 0.5rem;
+  font-size: 20px;
+  font-weight: bolder;
+  color: white;
+}
+
+/*projetos*/
+@media (max-width: 860px) {
+  .projects {
+    display: none;
+  }
+}
+.projects__title {
+  text-align: center;
+  color: #441a21;
+  line-height: normal;
+  padding: 2rem;
+  font-size: 2em;
+}
+.projects__image {
+  width: 35rem;
+  margin-left: 10rem;
+}
+.projects__text {
+  color: #eb9053;
+  font-weight: bolder;
+  font-size: 2em;
+  margin-left: 50rem;
+  margin-top: -25rem;
+}
+.projects__info {
+  margin-left: 50rem;
+  margin-bottom: 12rem;
+  margin-top: 2rem;
+}
+.projects__buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
 }/*# sourceMappingURL=content.css.map */
