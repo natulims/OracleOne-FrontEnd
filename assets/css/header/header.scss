@@ -19,30 +19,30 @@ $button-color: #fead96;
     margin-bottom: 2rem;
     margin-left: 10rem;
     overflow: hidden;
-    height: 8vh;
-    border-right: 0.1em solid $details-color;
-    letter-spacing: 0.3em;
+    // height: 10vh;
+    // border-right: 0.1em solid $details-color;
+    // letter-spacing: 0.3em;
 
-    animation: typing 1.5s steps(60, end), blink-caret 0.3s step-end infinite;
+    // animation: typing 1.5s steps(60, end), blink-caret 0.3s step-end infinite;
 
-    @keyframes typing {
-      from {
-        width: 0;
-      }
-      to {
-        width: 100%;
-      }
-    }
+    // @keyframes typing {
+    //   from {
+    //     width: 0;
+    //   }
+    //   to {
+    //     width: 100%;
+    //   }
+    // }
 
-    @keyframes blink-caret {
-      from,
-      to {
-        border-color: transparent;
-      }
-      100% {
-        border-color: $details-color;
-      }
-    }
+    // @keyframes blink-caret {
+    //   from,
+    //   to {
+    //     border-color: transparent;
+    //   }
+    //   100% {
+    //     border-color: $details-color;
+    //   }
+    // }
 
     @media (max-width: 860px) {
       font-size: 0.9em;
